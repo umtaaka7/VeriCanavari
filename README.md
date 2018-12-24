@@ -1,1 +1,1 @@
-http://vericanavari.blogspot.com/  adresindeki blogum için tema dosyaları
+https://vericanavari.blogspot.com/  adresindeki blogum için tema dosyaları
