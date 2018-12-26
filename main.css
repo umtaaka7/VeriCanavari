@@ -65,21 +65,23 @@ p.description{
 	color: #ffffff;
 }
 .post-body img {
-height: 100%;
-width: 100%;
-clear: both;
+	height:auto;
+	max-height:300px;
+	width: auto;
+	max-width:100%;
+	clear: both;
 }
 a:link {
-text-decoration:none;
-color: #00ACED;
+	text-decoration:none;
+	color: #00ACED;
 }
 a:visited {
-text-decoration:none;
-color: #00ACED;
+	text-decoration:none;
+	color: #00ACED;
 }
 a:hover {
-text-decoration:none;
-color: #FF7900;
+	text-decoration:none;
+	color: #FF7900;
 }
 .feed-links{
 	color: #00ACED;
