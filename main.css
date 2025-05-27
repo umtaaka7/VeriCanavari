@@ -1,155 +1,135 @@
-.content-area{
-	margin-top:10px;
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-.card{
-	margin-top:20px;
-	border-color: #56717e;
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
 }
-h2.title.card-header, h2.card-header{
-	font-size:15px;
-	background-color: #56717e;
-	color: #ffffff;
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
 }
-h3.post-title.entry-title{
-	font-size:30px;
-	color: #00ACED;
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 }
-.footer h2.title{
-	font-size:25px;
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom:10px;
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
 }
-.widget-content.cloud-label-widget-content{
-	margin: 20px;
+
+.jumbotron h1 {
+  font-weight: 300;
 }
-.card-body ul{
-	list-style-type: none;
-	padding-left: 0;
-	margin-left: 0px;
+
+.jumbotron .container {
+  max-width: 40rem;
 }
-.reactions-label-cell {
-    line-height: 1.3em;
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
-.post-body{
-	padding-bottom:20px;
+
+footer p {
+  margin-bottom: .25rem;
 }
-body {
-	background-color: #2E3D44;
-	padding: 0px;
-	margin: 0px;
+
+.container::after, .float-container::after {
+    clear: both;
+    content: none;
+    display: table;
 }
-h1.title {
-	color: #00ACED;
-}
-h2.title {
-	color: #00ACED;
-}
-p.description{
-	color: #7FFFD4;
-}
-.nav-arkaplan-rengi{
-	background-color: #425761;
-}
-.navbar-dark .navbar-nav .nav-link {
-    color: #ffffff;
-}
-.navbar {
-    border-radius: 4px;
-}
-.card-header{
-	background-color: #BDBDBD;
-}
-.btn-ara{
-	background-color: #56717e;
-	color: #ffffff;
-}
+
 .post-body img {
 	height:auto;
-	max-height:300px;
+	max-height:400px;
 	width: auto;
 	max-width:100%;
 	clear: both;
 }
-a:link {
-	text-decoration:none;
-	color: #00ACED;
+
+.navbarinkendisi {
+	background-color: #006d77;
 }
-a:visited {
-	text-decoration:none;
-	color: #00ACED;
+
+.navbararkasi {
+	background-color: #2a9d8f;
 }
+
+footer {
+    background-color: #006d77;
+}
+
+.card-header {
+    background-color: #2a9d8f;
+	color: white;
+}
+
+.card {
+    border: 1px solid #2a9d8f;
+}
+
+.list-group-item {
+    border: 1px solid #2a9d8f;
+}
+
+.btn-outline-secondary {
+    color: #e63946;
+    border-color: #2a9d8f;
+}
+
+.PopularPosts .widget-content ul li {
+    padding: .7em .7em;
+}
+
+a {
+    color: #e63946;
+    text-decoration: none;
+    background-color: transparent;
+}
+
 a:hover {
-	text-decoration:none;
-	color: #FF7900;
-}
-.feed-links{
-	color: #00ACED;
-}
-.logo{
-	width: 48px;
-	height: 48px;
-}
-a.btn.indir{
-	background-color: #4CAF50;
-	color: #FFFFFF;
-	font-weight: bold;
-	border-radius: 5px;
-	margin: 10px;
-}
-a:hover.btn.indir {
-	background-color: #3B5998;
-}
-.boyut{
-	font-size: 10px;
-	font-weight: normal;
+	color: #1d3557;
+    text-decoration: none;
+    background-color: transparent;
 }
 
-
-/* Pretty printing styles. Used with prettify.js. */
-/* Vim sunburst theme by David Leibovic */
-
-pre .str, code .str { color: #65B042; } /* string  - green */
-pre .kwd, code .kwd { color: #E28964; } /* keyword - dark pink */
-pre .com, code .com { color: #AEAEAE; font-style: italic; } /* comment - gray */
-pre .typ, code .typ { color: #89bdff; } /* type - light blue */
-pre .lit, code .lit { color: #3387CC; } /* literal - blue */
-pre .pun, code .pun { color: #fff; } /* punctuation - white */
-pre .pln, code .pln { color: #fff; } /* plaintext - white */
-pre .tag, code .tag { color: #89bdff; } /* html/xml tag    - light blue */
-pre .atn, code .atn { color: #bdb76b; } /* html/xml attribute name  - khaki */
-pre .atv, code .atv { color: #65B042; } /* html/xml attribute value - green */
-pre .dec, code .dec { color: #3387CC; } /* decimal - blue */
-
-pre.prettyprint, code.prettyprint {
-	background-color: #000;
-	border-radius: 8px;
+a:visited {
+	color: #e63946;
+    text-decoration: none;
+    background-color: transparent;
 }
 
-pre.prettyprint {
-	width: 95%;
-	margin: 1em auto;
-	padding: 1em;
-	white-space: pre-wrap;
+.bg-light {
+    background-color: #9ee5dd!important;
 }
 
+h3 {
+	color: #faa307;
+}
 
+.post-title {
+	color: #e63946;
+}
 
-/* Specify class=linenums on a pre to get line numbering */
-ol.linenums { margin-top: 0; margin-bottom: 0; color: #AEAEAE; } /* IE indents via margin-left */
-li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
-/* Alternate shading for lines */
-li.L1,li.L3,li.L5,li.L7,li.L9 { }
+.list-group-flush {
+	border-bottom-left-radius: .25rem;
+	border-bottom-right-radius: .25em;
+}
 
-@media print {
-  pre .str, code .str { color: #060; }
-  pre .kwd, code .kwd { color: #006; font-weight: bold; }
-  pre .com, code .com { color: #600; font-style: italic; }
-  pre .typ, code .typ { color: #404; font-weight: bold; }
-  pre .lit, code .lit { color: #044; }
-  pre .pun, code .pun { color: #440; }
-  pre .pln, code .pln { color: #000; }
-  pre .tag, code .tag { color: #006; font-weight: bold; }
-  pre .atn, code .atn { color: #404; }
-  pre .atv, code .atv { color: #060; }
+img {
+    border-radius: .25rem;
 }
